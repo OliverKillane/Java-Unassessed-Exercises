@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f341a0ab-d55c-426e-85fc-b1688d84dfc8" name="Default Changelist" comment="" />
+    <list default="true" id="f341a0ab-d55c-426e-85fc-b1688d84dfc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solutions/Problem4c70.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/Problem4c70.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solutions/Problem98e3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/Problem98e3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solutions/Problemf79b.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/Problemf79b.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1n4qUM82hBXMSfi2FzCqgTR5fFW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +34,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -33,6 +46,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="google-java-format.settings" />
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
@@ -54,7 +68,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610659724428</updated>
-      <workItem from="1610659725966" duration="5495000" />
+      <workItem from="1610659725966" duration="5703000" />
+      <workItem from="1610665978940" duration="189000" />
     </task>
     <servers />
   </component>
@@ -90,9 +105,17 @@
       <screen x="0" y="0" width="3778" height="2160" />
     </state>
     <state width="1845" height="128" key="GridCell.Tab.0.right/-1920.540.1858.1080/0.0.3778.2160@0.0.3778.2160" timestamp="1610665741798" />
-    <state x="424" y="654" key="SettingsEditor" timestamp="1610660730875">
+    <state x="424" y="654" key="SettingsEditor" timestamp="1610666169692">
       <screen x="0" y="0" width="3778" height="2160" />
     </state>
-    <state x="424" y="654" key="SettingsEditor/-1920.540.1858.1080/0.0.3778.2160@0.0.3778.2160" timestamp="1610660730875" />
+    <state x="424" y="654" key="SettingsEditor/-1920.540.1858.1080/0.0.3778.2160@0.0.3778.2160" timestamp="1610666169692" />
+    <state x="649" y="904" key="com.intellij.ide.util.TipDialog" timestamp="1610665978331">
+      <screen x="0" y="0" width="3778" height="2160" />
+    </state>
+    <state x="649" y="904" key="com.intellij.ide.util.TipDialog/-1920.540.1858.1080/0.0.3778.2160@0.0.3778.2160" timestamp="1610665978331" />
+    <state x="615" y="509" width="672" height="678" key="search.everywhere.popup" timestamp="1610666135750">
+      <screen x="0" y="0" width="3778" height="2160" />
+    </state>
+    <state x="615" y="509" width="672" height="678" key="search.everywhere.popup/-1920.540.1858.1080/0.0.3778.2160@0.0.3778.2160" timestamp="1610666135750" />
   </component>
 </project>
