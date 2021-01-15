@@ -2,7 +2,7 @@ package Solutions;
 
 import java.util.Random;
 
-public class Problem4c70 extends Problem {
+public class Problem4c70 implements Problem {
   @Override
   public void runProblem(String[] args) {
     Random generator = new Random();

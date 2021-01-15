@@ -3,12 +3,12 @@ package Solutions;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Problemf79b extends Problem {
+public class Problemf79b implements Problem {
   private Boolean isPalindrome(long n) {
-    // way overcomplicated, should've just made a string, checked against reversed, ew casts to
+    // way overcomplicated, should've just made a string, checked against reversed
     // ints.
     ArrayList<Integer> digits = new ArrayList<Integer>();
-    int quot, rem;
+    int quot, rem, size;
 
     while (n != 0) {
       quot = (int) (n / 10);
@@ -16,15 +16,15 @@ public class Problemf79b extends Problem {
       digits.add(rem);
       n = quot;
     }
-    return digits.equals(reverselist(digits));
-  }
 
-  private <t> ArrayList<t> reverselist(ArrayList<t> list) {
-    ArrayList<t> revlist = new ArrayList<t>();
-    for (int i = list.size() - 1; i >= 0; i--) {
-      revlist.add(list.get(i));
+    size = digits.size();
+
+    for (int i = 0; i < (size / 2); i++){
+      if (digits.get(i) != digits.get(size - i - 1)){
+        return false;
+      }
     }
-    return revlist;
+    return true;
   }
 
   @Override

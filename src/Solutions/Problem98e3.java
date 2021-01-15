@@ -1,6 +1,6 @@
 package Solutions;
 
-public class Problem98e3 extends Problem {
+public class Problem98e3 implements Problem {
   private int next(int x) {
     return x % 2 == 0 ? x / 2 : 3 * x + 1;
   }
@@ -11,7 +11,7 @@ public class Problem98e3 extends Problem {
 
     do {
       System.out.print(current);
-      System.out.print(" ");
+      System.out.print(' ');
       current = next(current);
     } while (current != 1);
     System.out.print(1);
