@@ -16,7 +16,7 @@ public class Problem2d33 implements Problem {
     String line;
     try{
       line = br.readLine();
-      while (line != ""){
+      while (line != null){
         lines.push(line);
         line = br.readLine();
       }
